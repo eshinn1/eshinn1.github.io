@@ -5,8 +5,30 @@ body {
   font-size: 18px;
 }
 
-h1 {
-  border-style: dotted;
+.aboutme {
+  border-style: solid;
+  width: 17%;
+}
+
+.fun {
+  border-style: solid;
+  width: 17%;
+}
+
+.ugh {
+  border-style: solid;
+  width: 17%;
+}
+
+.hai {
+  border-style: solid;
+  width: 17%;
+}
+
+.win {
+  border-style: solid;
+  width: 17%
+
 }
 
 .school-link a {
