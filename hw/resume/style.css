@@ -5,6 +5,10 @@ body {
   font-size: 18px;
 }
 
+h1 {
+  border-style: dotted;
+}
+
 .school-link a {
   color: orange;
   text-decoration: none;
@@ -37,7 +41,7 @@ body {
 }
 
 
-.bettertable {
+.bettertable tr {
   border:1px solid black;
 }
 
@@ -46,18 +50,15 @@ body {
 }
 
 .bettertable {
-  height: 50px;
+  height: 100px;
 }
 
 .bettertable {
   text-align: center;
 }
 
-.bettertable {
-  padding: 15px;
-  text-align: center;
-}
-.bettertable {
+
+.bettertable th {
   background-color: #4CAF50;
   color: white;
 }
