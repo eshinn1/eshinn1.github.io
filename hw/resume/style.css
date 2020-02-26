@@ -5,6 +5,10 @@ body {
   font-size: 18px;
 }
 
+.name {
+  text-shadow: 3px 2px orange;
+}
+
 .aboutme {
   border-style: solid;
   width: 17%;
@@ -83,4 +87,9 @@ body {
 .bettertable th {
   background-color: #4CAF50;
   color: white;
+}
+
+.mail {
+  text-decoration: none;
+  text-align: center;
 }
