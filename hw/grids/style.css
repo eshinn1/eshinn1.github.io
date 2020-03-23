@@ -1,12 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
 body {
   width: 900px;
   margin: 0 auto;
   border: 0px solid blue;
 }
 
+body {
+  background-image:url(background2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
+  font-family: Fredoka One;
+}
+
+h1 {
+  border-style: solid;
+  border-width: 5px;
+
+}
+
+.catchy {
+  border-style: solid;
+  border-width: medium;
+}
+
+
+
+.catchy {
+  text-align: center;
+  font-size: 40px;
 }
 
 nav {
@@ -20,7 +47,7 @@ section {
 
 .grid2-container {
   display: grid;
-  grid-gap: 5%
+  grid-gap: 2%
 }
 .grid2-hed {
   grid-column: 1/2;
@@ -43,7 +70,7 @@ section {
 
 .grid3-container {
   display: grid;
-  grid-gap: 5%
+  grid-gap: 2%
 }
 .grid3-hed {
   grid-column: 1/2;
@@ -59,14 +86,13 @@ section {
   grid-row: 2/3;
 }
 .grid3-img {
-  height: 100px;
+  height: 140px;
   width; 100px;
 
 }
-
-.grid4-container {
+.grid3-container {
   display: grid;
-  grid-gap: 5%
+  grid-gap: 2%
 }
 .grid4-hed {
   grid-column: 1/2;
@@ -82,14 +108,14 @@ section {
   grid-row: 2/3;
 }
 .grid4-img {
-  height: 100px;
+  height: 140px;
   width; 100px;
 
 }
 
 .grid5-container {
   display: grid;
-  grid-gap: 5%
+  grid-gap: 2%
 }
 .grid5-hed {
   grid-column: 1/2;
@@ -105,7 +131,7 @@ section {
   grid-row: 2/3;
 }
 .grid5-img {
-  height: 100px;
+  height: 140px;
   width; 100px;
 
 }
