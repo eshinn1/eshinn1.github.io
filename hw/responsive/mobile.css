@@ -1,0 +1,29 @@
+
+body {
+  margin: 4%;
+}
+
+
+
+
+
+
+.grid2-container {
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 1fr;
+
+}
+
+.grid2-hed {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.grid2-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid2-text {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}

@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
 
 body {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   border: 0px solid blue;
-}
-
-body {
-  background-image:url(background2.jpg);
+  background-image: url("images/background2.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -15,23 +12,17 @@ body {
 h1 {
   text-align: center;
   font-size: 80px;
-  font-family: Fredoka One;
-}
-
-h1 {
+  font-family: "Fredoka One", sans-serif;
   border-style: solid;
   border-width: 5px;
 
+img {
+  width: 100%;
 }
 
 .catchy {
   border-style: solid;
   border-width: medium;
-}
-
-
-
-.catchy {
   text-align: center;
   font-size: 40px;
 }
@@ -45,27 +36,24 @@ section {
 }
 
 
-.grid2-container {
+.grid-container {
   display: grid;
   grid-gap: 2%
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto 1fr;
 }
-.grid2-hed {
+.grid-hed {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.grid2-img {
+.grid-img {
   grid-column: 1/2;
   grid-row: 2/3;
 }
 
-.grid2-text {
+.grid-text {
   grid-column: 2/3;
   grid-row: 2/3;
-}
-.grid2-img {
-  height: 140px;
-  width; 100px;
-
 }
 
 .grid3-container {
@@ -76,23 +64,23 @@ section {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.grid3-img {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
+
 
 .grid3-text {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-.grid3-img {
-  height: 140px;
-  width; 100px;
 
-}
+
 .grid3-container {
   display: grid;
   grid-gap: 2%
+}
+
+.grid4-container {
+  display: grid;
+  grid-gap: 2%;
+
 }
 .grid4-hed {
   grid-column: 1/2;
@@ -107,12 +95,6 @@ section {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-.grid4-img {
-  height: 140px;
-  width; 100px;
-
-}
-
 .grid5-container {
   display: grid;
   grid-gap: 2%
@@ -130,11 +112,7 @@ section {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-.grid5-img {
-  height: 140px;
-  width; 100px;
 
-}
 
 
 
