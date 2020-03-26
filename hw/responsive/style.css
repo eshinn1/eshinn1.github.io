@@ -41,6 +41,12 @@ h1 {
   color: #c1c1c1;
 }
 
+.first {
+  text-align: center;
+  font-size: 50px;
+  color: #234099;
+}
+
 img {
   width: 100%;
   height: 90%
@@ -67,7 +73,7 @@ section {
   grid-template-columns: 1fr 2fr;
   grid-template-rows: auto 1fr;
   border-style: solid;
-  border-width: 10px;
+  border-width: 5px;
   font-family: "Signika";
 
 
@@ -76,6 +82,8 @@ section {
 .grid-hed {
   grid-column: 1/2;
   grid-row: 1/2;
+  text-align: center;
+  font-size: 25px;
 }
 
 .grid-img {
