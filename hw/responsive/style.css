@@ -49,7 +49,8 @@ h1 {
 
 img {
   width: 100%;
-  height: 90%
+  height: 80%;
+
 }
 
 .catchy {
@@ -95,7 +96,7 @@ section {
   grid-column: 2/3;
   grid-row: 2/3;
   font-size: 27px;
-  text-align: center;
+  text-align: left;
 
 }
 
