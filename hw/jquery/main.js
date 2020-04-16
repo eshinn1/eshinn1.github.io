@@ -12,7 +12,7 @@ $( "h1" ).css("color", "purple");
 $( "h1" ).addclass("big-text");
 
 
-} );
+
 
 $("#ingredients").click("click", function(){
   $(this).css("background-color", "white");
@@ -35,4 +35,4 @@ $( "p" )
 
 $("#final").fadeIn(8000);
 
-} );
+});
