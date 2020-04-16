@@ -6,12 +6,10 @@ $("h1").click("click", function() {
   $(this).css("background-color", "red");
 });
 
-
+$("#yummy").fadeIn(8000);
 
 $( "h1" ).css("color", "purple");
-$( "h1" ).addclass("big-text");
-
-
+$( "h1" ).addClass("big-text");
 
 
 $("#ingredients").click("click", function(){
