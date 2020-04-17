@@ -37,7 +37,8 @@ img {
   width: 45%;
 }
 
-
+#final {
+  display: none;
 }
 
 header,
