@@ -14,7 +14,7 @@ body {
   max-width: 900px;
   margin: 0 auto;
   border: 0px solid blue;
-  background-image: url("images/cool-background.png");
+  background-image: url("images/background.png");
   background-size: cover;
   background-attachment: fixed;
   font-family: "Roboto", sans-serif;
@@ -45,18 +45,19 @@ nav {
 
 img {
 
-    width: 100%;
-    height: auto;
+  height: 650px;
+  width: 900px;
+  border-radius: 7px;
 }
 
 .title1  {
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
   color: blue;
 }
 
 .text1 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
 }
 
@@ -66,8 +67,43 @@ img {
 }
 
 .text2 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
+}
+
+.title3 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.text3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.title4 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.text4 {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.title5 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.text5 {
+  text-align: center;
+  font-size: 30px;
+
 }
 
 footer {
