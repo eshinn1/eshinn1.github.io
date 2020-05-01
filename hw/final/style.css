@@ -43,11 +43,32 @@ nav {
   margin-bottom: 150px;
 }
 
-img {
 
-  height: 650px;
-  width: 900px;
+img {
+  display: block;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 85%;
   border-radius: 7px;
+
+}
+
+section {
+  margin-bottom: 4%;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 2%;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto 1fr;
+  border-style: solid;
+  border-width: 5px;
+  font-family: "Roboto";
+
+
 }
 
 .title1  {
@@ -61,49 +82,73 @@ img {
   text-align: center;
 }
 
-.title2 {
-  text-align: center;
-  font-size: 50px;
-}
-
-.text2 {
-  font-size: 30px;
-  text-align: center;
-}
-
-.title3 {
-  text-align: center;
-  font-size: 50px;
-
-}
-
-.text3 {
-  font-size: 30px;
-  text-align: center;
-}
-
-.title4 {
-  text-align: center;
-  font-size: 50px;
-
-}
-
-.text4 {
-  font-size: 30px;
-  text-align: center;
-
-}
-
-.title5 {
-  text-align: center;
-  font-size: 50px;
-
-}
-
-.text5 {
+.grid-hed {
+  grid-column: 1/2;
+  grid-row: 1/2;
   text-align: center;
   font-size: 30px;
+}
 
+.grid-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid-text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 35px;
+  text-align: center;
+
+}
+
+
+}
+
+.grid3-container {
+  display: grid;
+  grid-gap: 2%
+}
+
+.grid3-hed {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grid3-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid3-text {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+
+.grid3-container {
+  display: grid;
+  grid-gap: 2%
+}
+
+.grid4-container {
+  display: grid;
+  grid-gap: 2%;
+}
+
+.grid4-hed {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.grid4-img {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.grid4-text {
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
 
 footer {
