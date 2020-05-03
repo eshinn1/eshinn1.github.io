@@ -79,6 +79,11 @@ section {
   font-size: 25px;
 }
 
+.title5 {
+  text-align: center;
+  font-size: 25px;
+}
+
 .grid-container {
   display: grid;
   grid-gap: 2%;
