@@ -98,6 +98,8 @@ section {
 
 
 
+
+
 .grid-hed {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -107,14 +109,14 @@ section {
 
 .grid-img {
   grid-column: 1/2;
-  grid-row: 2/3;
+  grid-row: 1/2;
 }
 
 .grid-text {
   grid-column: 2/3;
-  grid-row: 2/3;
+  grid-row: 1/2;
   font-size: 25px;
-  text-align: center;
+
 
 }
 
