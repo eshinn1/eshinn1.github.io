@@ -13,4 +13,5 @@ $(document).ready(function() {
     $("h1").html("<em>From Noob to Pilot</em>");
   });
 
-  
+
+});
