@@ -97,9 +97,6 @@ section {
 }
 
 
-
-
-
 .grid-hed {
   grid-column: 1/2;
   grid-row: 1/2;
@@ -121,7 +118,6 @@ section {
 }
 
 
-}
 
 .grid3-container {
   display: grid;
@@ -167,6 +163,12 @@ section {
 .grid4-text {
   grid-column: 2/3;
   grid-row: 2/3;
+}
+
+.lasttext {
+  font-size: 25px;
+  border-style: solid;
+  border-width: 5px;
 }
 
 footer {
