@@ -46,8 +46,6 @@ h4,
 h5,
 h6 {
   font-weight: bold;
-  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
-  /* font-family: raleweay, "open sans", Arial, Helvetica, sans-serif; */
   font-family: raleway, Arial, Helvetica, sans-serif;
   margin-bottom: 5px;
 }
