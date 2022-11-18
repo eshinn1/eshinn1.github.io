@@ -9,8 +9,6 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 body {
-  /* font-family: "Roboto", "Helvetica", "Arial", sans-serif; */
-  /* Only use serif or san serif for your design */
   font-family: raleweay, "open sans", Arial, Helvetica, sans-serif;
   font-size: 22px;
   line-height: 2.5rem;
@@ -36,8 +34,6 @@ cite {
   color: #555555;
   line-height: 0.8rem;
 }
-
-
 
 h1,
 h2,
